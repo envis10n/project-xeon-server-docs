@@ -40,6 +40,8 @@
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
 							<input type="checkbox" id="tsd-filter-externals" checked />
 							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -75,10 +77,25 @@
 								<li class="tsd-kind-class tsd-parent-kind-external-module tsd-has-type-parameter"><a href="../classes/_classes_database_database_.collection.html" class="tsd-kind-icon">Collection</a></li>
 							</ul>
 						</section>
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Interfaces</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported"><a href="../interfaces/_classes_database_database_.iobjectany.html" class="tsd-kind-icon">IObject<wbr>Any</a></li>
+							</ul>
+						</section>
 						<section class="tsd-index-section ">
 							<h3>Type aliases</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-type-alias tsd-parent-kind-external-module"><a href="_classes_database_database_.html#arangocollection" class="tsd-kind-icon">Arango<wbr>Collection</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Variables</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_classes_database_database_.html#arango_database" class="tsd-kind-icon">ARANGO_<wbr>DATABASE</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_classes_database_database_.html#arango_host" class="tsd-kind-icon">ARANGO_<wbr>HOST</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_classes_database_database_.html#arango_password" class="tsd-kind-icon">ARANGO_<wbr>PASSWORD</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_classes_database_database_.html#arango_user" class="tsd-kind-icon">ARANGO_<wbr>USER</a></li>
 							</ul>
 						</section>
 					</div>
@@ -93,6 +110,49 @@
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in classes/database/database.ts:13</li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+				<h2>Variables</h2>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+					<a name="arango_database" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> ARANGO_<wbr>DATABASE</h3>
+					<div class="tsd-signature tsd-kind-icon">ARANGO_<wbr>DATABASE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;process.env.ARANGO_DATABASE || &quot;haccmud&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in classes/database/database.ts:18</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+					<a name="arango_host" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> ARANGO_<wbr>HOST</h3>
+					<div class="tsd-signature tsd-kind-icon">ARANGO_<wbr>HOST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;process.env.ARANGO_HOST || &quot;http://localhost:8529&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in classes/database/database.ts:15</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+					<a name="arango_password" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> ARANGO_<wbr>PASSWORD</h3>
+					<div class="tsd-signature tsd-kind-icon">ARANGO_<wbr>PASSWORD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;process.env.ARANGO_PASSWORD || &quot;&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in classes/database/database.ts:17</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+					<a name="arango_user" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> ARANGO_<wbr>USER</h3>
+					<div class="tsd-signature tsd-kind-icon">ARANGO_<wbr>USER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;process.env.ARANGO_USER || &quot;&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in classes/database/database.ts:16</li>
 						</ul>
 					</aside>
 				</section>
@@ -117,8 +177,23 @@
 					<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-has-type-parameter">
 						<a href="../classes/_classes_database_database_.collection.html" class="tsd-kind-icon">Collection</a>
 					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../interfaces/_classes_database_database_.iobjectany.html" class="tsd-kind-icon">IObject<wbr>Any</a>
+					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 						<a href="_classes_database_database_.html#arangocollection" class="tsd-kind-icon">Arango<wbr>Collection</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="_classes_database_database_.html#arango_database" class="tsd-kind-icon">ARANGO_<wbr>DATABASE</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="_classes_database_database_.html#arango_host" class="tsd-kind-icon">ARANGO_<wbr>HOST</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="_classes_database_database_.html#arango_password" class="tsd-kind-icon">ARANGO_<wbr>PASSWORD</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="_classes_database_database_.html#arango_user" class="tsd-kind-icon">ARANGO_<wbr>USER</a>
 					</li>
 				</ul>
 			</nav>

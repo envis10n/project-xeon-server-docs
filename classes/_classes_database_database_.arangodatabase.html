@@ -40,6 +40,8 @@
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
 							<input type="checkbox" id="tsd-filter-externals" checked />
 							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -89,6 +91,7 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_classes_database_database_.arangodatabase.html#db" class="tsd-kind-icon">db</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_classes_database_database_.arangodatabase.html#schemas" class="tsd-kind-icon">schemas</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -130,6 +133,16 @@
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in classes/database/database.ts:42</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="schemas" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> schemas</h3>
+					<div class="tsd-signature tsd-kind-icon">schemas<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="_lib_schema_.schema.html" class="tsd-signature-type">Schema</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new Map()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in classes/database/database.ts:43</li>
 						</ul>
 					</aside>
 				</section>
@@ -223,6 +236,9 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_classes_database_database_.arangodatabase.html#db" class="tsd-kind-icon">db</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_classes_database_database_.arangodatabase.html#schemas" class="tsd-kind-icon">schemas</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
 								<a href="_classes_database_database_.arangodatabase.html#collection" class="tsd-kind-icon">collection</a>
 							</li>
@@ -236,8 +252,23 @@
 					<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-has-type-parameter">
 						<a href="_classes_database_database_.collection.html" class="tsd-kind-icon">Collection</a>
 					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../interfaces/_classes_database_database_.iobjectany.html" class="tsd-kind-icon">IObject<wbr>Any</a>
+					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 						<a href="../modules/_classes_database_database_.html#arangocollection" class="tsd-kind-icon">Arango<wbr>Collection</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../modules/_classes_database_database_.html#arango_database" class="tsd-kind-icon">ARANGO_<wbr>DATABASE</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../modules/_classes_database_database_.html#arango_host" class="tsd-kind-icon">ARANGO_<wbr>HOST</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../modules/_classes_database_database_.html#arango_password" class="tsd-kind-icon">ARANGO_<wbr>PASSWORD</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../modules/_classes_database_database_.html#arango_user" class="tsd-kind-icon">ARANGO_<wbr>USER</a>
 					</li>
 				</ul>
 			</nav>
